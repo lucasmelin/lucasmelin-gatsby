@@ -57,70 +57,70 @@ const IndexPage = ({
     allMarkdownRemark: { edges: postEdges },
   },
 }) => (
-    <Layout>
-      <Wrapper>
-        <Hero>
-          <h1>Hi.</h1>
-          <p>
-            I&apos;m <b>Lucas Melin</b>, a Computer Engineering Technology - Computing Science student at Algonquin
-            College, and a Quality Assurance Analyst at the Bank of Canada.
+  <Layout>
+    <Wrapper>
+      <Hero>
+        <h1>Hi.</h1>
+        <p>
+          I&apos;m <b>Lucas Melin</b>, a Computer Engineering Technology - Computing Science student at Algonquin
+          College, and a Quality Assurance Analyst at the Bank of Canada.
         </p>
-          <Link to="/contact">
-            <Button big>
-              <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
-              </svg>
-              Contact
+        <Link to="/contact">
+          <Button big>
+            <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
+            </svg>
+            Contact
           </Button>
-          </Link>
-        </Hero>
-        <ProjectsWrapper>
-          <ProjectCard
-            title="Ant Facts"
-            link="https://www.amazon.com/dp/B079X4T9WV/"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-          >
-            An Amazon Alexa voice skill built using AWS Lambda and NodeJS
+        </Link>
+      </Hero>
+      <ProjectsWrapper>
+        <ProjectCard
+          title="Ant Facts"
+          link="https://www.amazon.com/dp/B079X4T9WV/"
+          bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+        >
+          An Amazon Alexa voice skill built using AWS Lambda and NodeJS
         </ProjectCard>
-          <ProjectCard
-            title="Droppod"
-            link="https://github.com/lucasmelin/droppod"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            A JavaEE Social Podcasting Application
+        <ProjectCard
+          title="Droppod"
+          link="https://github.com/lucasmelin/droppod"
+          bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+        >
+          A JavaEE Social Podcasting Application
         </ProjectCard>
-          <ProjectCard
-            title="CHIP-8"
-            link="https://github.com/lucasmelin/kotlin-chip-8"
-            bg="linear-gradient(to right, #00242b 0%, #7de38d 100%)"
-          >
-            A CHIP-8 interpreter written in Kotlin.
+        <ProjectCard
+          title="CHIP-8"
+          link="https://github.com/lucasmelin/kotlin-chip-8"
+          bg="linear-gradient(to right, #00242b 0%, #7de38d 100%)"
+        >
+          A CHIP-8 interpreter written in Kotlin.
         </ProjectCard>
-          <ProjectCard
-            title="ACCK"
-            link="https://github.com/lucasmelin/AndroidCurrencyConverter"
-            bg="linear-gradient(to right, #fe5938 0%, #b07219 100%)"
-          >
-            Kotlin Android app featuring daily conversion rate updates.
+        <ProjectCard
+          title="ACCK"
+          link="https://github.com/lucasmelin/AndroidCurrencyConverter"
+          bg="linear-gradient(to right, #fe5938 0%, #b07219 100%)"
+        >
+          Kotlin Android app featuring daily conversion rate updates.
         </ProjectCard>
-        </ProjectsWrapper>
-        <Content>
-          <SectionTitle>Latest stories</SectionTitle>
-          {postEdges.map(post => (
-            <Article
-              title={post.node.frontmatter.title}
-              date={post.node.frontmatter.date}
-              excerpt={post.node.excerpt}
-              timeToRead={post.node.timeToRead}
-              slug={post.node.fields.slug}
-              category={post.node.frontmatter.category}
-              key={post.node.fields.slug}
-            />
-          ))}
-        </Content>
-      </Wrapper>
-    </Layout>
-  );
+      </ProjectsWrapper>
+      <Content>
+        <SectionTitle>Latest stories</SectionTitle>
+        {postEdges.map(post => (
+          <Article
+            title={post.node.frontmatter.title}
+            date={post.node.frontmatter.date}
+            excerpt={post.node.excerpt}
+            timeToRead={post.node.timeToRead}
+            slug={post.node.fields.slug}
+            category={post.node.frontmatter.category}
+            key={post.node.fields.slug}
+          />
+        ))}
+      </Content>
+    </Wrapper>
+  </Layout>
+);
 
 export default IndexPage;
 
