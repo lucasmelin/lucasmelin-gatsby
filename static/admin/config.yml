@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: lucasmelin/lucasmelin-gatsby # Path to your GitHub repository
+  branch: master # Branch to update (master by default)
+
+publish_mode: editorial_workflow
+media_folder: "static/images" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - #name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Blog" # Used in the UI, ie.: "New blog"
+    folder: "blog" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}"
+    fields: # The fields each document in this collection have
+      - { label: Title, name: "title", widget: "string", tagname: "h1" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: Slug, name: "slug", widget: "string" }
+      - {
+          label: Tags,
+          name: tags,
+          widget: list,
+          default: ["APIs", "JavaScript"],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
