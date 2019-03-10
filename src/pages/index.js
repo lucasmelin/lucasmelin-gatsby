@@ -62,8 +62,7 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m <b>Lucas Melin</b>, a Computer Engineering Technology - Computing Science student at Algonquin
-          College, and a Quality Assurance Analyst at the Bank of Canada.
+          I&apos;m <b>Lucas Melin</b>, a QA Systems Testing Analyst at the Bank of Canada.
         </p>
         <Link to="/contact">
           <Button big>
