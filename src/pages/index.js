@@ -105,7 +105,7 @@ const IndexPage = ({
         </ProjectCard>
       </ProjectsWrapper>
       <Content>
-        <SectionTitle>Latest stories</SectionTitle>
+        <SectionTitle>Latest posts</SectionTitle>
         {postEdges.map(post => (
           <Article
             title={post.node.frontmatter.title}
