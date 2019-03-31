@@ -28,8 +28,15 @@ module.exports = {
               rel: 'nofollow noopener noreferrer',
             },
           },
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 800,
+            },
+          },
           'gatsby-remark-prismjs',
           'gatsby-remark-autolink-headers',
+          'gatsby-remark-copy-linked-files',
         ],
       },
     },
