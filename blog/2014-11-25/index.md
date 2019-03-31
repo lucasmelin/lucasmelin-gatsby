@@ -15,7 +15,7 @@ A recent paper by Alison Sweeney entitled "Twilight spectral dynamics and the co
 
 <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-    <a href="https://www.flickr.com/photos/nashworld/5644714885/" title="Elkhorn Coral - Acropora palmata by nashworld, on Flickr"><img class="pImageRight" src="http://farm6.static.flickr.com/5143/5644714885_de0e3fba9c_z.jpg"  alt="Elkhorn Coral - Acropora palmata"></a>
+    <a href="https://www.flickr.com/photos/nashworld/5644714885/" title="Elkhorn Coral - Acropora palmata by nashworld, on Flickr"><img class="pImageRight" src="https://farm6.static.flickr.com/5143/5644714885_de0e3fba9c_z.jpg"  alt="Elkhorn Coral - Acropora palmata"></a>
     </div>
 </div>
 
@@ -30,7 +30,7 @@ Dr. Sweeney believes that some types of sea urchins also synchronize their repro
 
 <div class="col-sm-6 col-md-4" style="float: right">
     <div class="thumbnail">
-        <a href="https://www.flickr.com/photos/jkirkhart35/3108600644/" title="Strongylocentrotus purpuratus by jkirkhart35, on Flickr"><img src="http://farm4.static.flickr.com/3017/3108600644_4435c2ef09_z.jpg" width="640" height="541" alt="Strongylocentrotus purpuratus"></a>
+        <a href="https://www.flickr.com/photos/jkirkhart35/3108600644/" title="Strongylocentrotus purpuratus by jkirkhart35, on Flickr"><img src="https://farm4.static.flickr.com/3017/3108600644_4435c2ef09_z.jpg" width="640" height="541" alt="Strongylocentrotus purpuratus"></a>
     </div>
 </div>
 
