@@ -5572,10 +5572,10 @@ gatsby-plugin-lodash@^3.1.0:
     babel-plugin-lodash "^3.2.11"
     lodash-webpack-plugin "^0.11.5"
 
-gatsby-plugin-manifest@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.0.tgz#e16d39bd415026594465e1763cc2abd43729a7d1"
-  integrity sha512-VcSe6cT+H0pbll5l5rs8+AAdBnH4nsTJ81plvw/Oyn8WnsnWcD/c1RbQLSrTGl6CKGLlUtrwrPuYFNYe50AsZg==
+gatsby-plugin-manifest@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.2.tgz#6ad9022b9265cc6f6edcd94cea60e7a2ad5495f1"
+  integrity sha512-vUnDIqKk1Di/Pi9uH0LkZ9ynYct/HYAlV1C3qwJNG/fYcB9aOyC5s1eE7S8TPJ0uaHan7Mw0e0tuCCblfKfPMA==
   dependencies:
     "@babel/runtime" "^7.0.0"
     semver "^5.6.0"
