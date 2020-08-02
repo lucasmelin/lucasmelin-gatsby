@@ -62,7 +62,7 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m <b>Lucas Melin</b>, a QA Systems Testing Analyst at the Bank of Canada.
+          I&apos;m <b>Lucas Melin</b>, a Developer Productivity Lead at the Bank of Canada.
         </p>
         <Link to="/contact">
           <Button big>
